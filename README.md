@@ -2,11 +2,11 @@
 
 The react native documentation requests that you use expo-cli but this comes with some caveats if you are creating apps for clients.
 
-Using the `react-native-cli` is just a simple to use. It just requires some configuration.
+Using the `react-native-cli` it is just as simple to use. It just requires some configuration.
 
 # Node version
 
-You node version will require to be 8.3 or newer.
+Your node version will require to be 8.3 or newer.
 
 If you are not using `nvm` already then I suggest installing it now as you are going to need it.
 
@@ -14,7 +14,7 @@ If you are not using `nvm` already then I suggest installing it now as you are g
 
 # Install node version 8.3 or newer. 
 
-To check out the versions of node look the following link:
+To check out the versions of node look at the following link:
 
 [https://github.com/nodejs/Release#release-schedule](https://github.com/nodejs/Release#release-schedule)
 
@@ -36,7 +36,7 @@ nvm use 10.15.1
 
 # Install react-native-cli
 
-If you will need to install this now if this is the first time you have `use`'d this node version.
+You will need to install `react-native-cli` now if this is the first time you have `use`'d this node version.
 
 
 ```bash
@@ -48,7 +48,7 @@ added 41 packages from 15 contributors in 2.42s
 
 # Initialise project
 
-So lets go ahead and make our example project called `exampleapp` in this folder.
+So lets go ahead and make our example project using typescript which will be located in the `exampleapp` folder.
 
 ```bash
 react-native init exampleapp --typescript
@@ -73,7 +73,7 @@ react-native run-android
 
 # Enable Transfer files
 
-ake sure when you plug the phone in to select Transfer files.
+Make sure when you plug the phone in to select Transfer files.
 
 ![Enable USB Debugging](./screenshots/transfer_files.jpg)
 
@@ -102,7 +102,7 @@ cd android
 ./gradlew uninstallDebug
 ```
 
-If you dont do this and uninstall the app directly on the phone you will receive this problem.
+If you don't do this and uninstall the app directly on the phone you will receive this problem.
 
 ```bash
 BUILD SUCCESSFUL in 6s
@@ -208,14 +208,14 @@ android {
 
 # Build Release
 
-Simply run the following in a terminal:
+Simply run the following command in a terminal:
 
 ```bash
 cd android
 ./gradlew assembleRelease
 ```
 
-Before you go ahead and install the app to your phone, make sure that you uninstall any other version which you may have install already.
+Before you go ahead and install the app to your phone, make sure that you uninstall any other version which you may have installed already.
 
 ```bash
 ./gradlew uninstallDebug
